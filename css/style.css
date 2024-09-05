@@ -90,7 +90,7 @@ header{background:#383838;min-height:60px;display:-webkit-box;display:-ms-flexbo
 @media(max-width:768px){
  .offer-background-sec-new{
    padding-top:30px;
-   padding-bottom:30px;
+   padding-bottom:50px;
  }   
 .blue-band-offer-heading{margin-bottom:12px}
 .blue-band-padding-new-css{padding:0 15px}
@@ -101,8 +101,8 @@ header{background:#383838;min-height:60px;display:-webkit-box;display:-ms-flexbo
     font-size: 10px;
     font-weight: 600;
     color: #fff;
-    margin-top: 5px;
-    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 0px;
 }
 }
 
@@ -144,7 +144,7 @@ header{background:#383838;min-height:60px;display:-webkit-box;display:-ms-flexbo
 .contactFormHolder{right:10px;top:30px;width:300px;z-index:9}
 }
 @media (max-width:992px){
-.contactFormHolder{position:static;display:inline-block;right:auto;top:75px;width:100%;z-index:3;padding:30px 30px 30px 30px}
+.contactFormHolder{position:static;display:inline-block;right:auto;top:75px;width:100%;z-index:3;padding:40px 30px 40px 30px}
 .contactForm{max-width:600px;margin:0 auto}
 }
 @media (max-width:767px){
