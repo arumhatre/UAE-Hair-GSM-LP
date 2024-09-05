@@ -26,10 +26,10 @@
         <div class="col-xl-5 col-lg-5 col-md-6 pl-0 pr-0 align-self-end order-md-first order-last pt-md-5 pt-3">
           <picture class="d-block">
             <source media="(min-width:577px)" srcset="images/xogen-ban-model.webp" width="750" height="517">
-              <img src="images/xogen-ban-model-mob.webp" alt="Did you know" class="img-fluid" width="" height=""></picture>
+              <img src="images/xogen-ban-model-mob.webp" alt="Did you know" class="img-fluid" width="600" height="481"></picture>
         </div>
         <div class="col-xl-4 col-lg-4 col-md-6 col-12 align-self-center">
-          <div class="col-12 d-block d-md-none text-left pt-4 pb-2 pl-0"><img src="images/db-logo.webp" class="img-fluid img-responsive dblogo" width="150px" height="53"> </div>
+          <div class="col-12 d-block d-md-none text-left pt-4 pb-2 pl-0"><img src="images/db-logo.webp" alt="DB Logo" class="img-fluid img-responsive dblogo" width="150" height="50"> </div>
           <div class="hair_banner_content py-4">
             <h1>Treat all your <br>
             <strong>Hair Problems</strong> with<br>
@@ -573,9 +573,11 @@
     document.getElementById("myForm").style.display = "none";
   }
   </script>
+ 
   <script>
-  var owl = $(".screenshot_slider").owlCarousel({
-    loop: !0,
+  $(document).ready(function() {
+    $(".screenshot_slider").owlCarousel({
+     loop: !0,
     responsiveClass: !0,
     nav: !0,
     margin: 0,
@@ -600,13 +602,16 @@
       1200: {
         items: 3
       }
-    }
+      }
+    });
+    $(".owl-nav .owl-prev").attr("role", "button"), $(".owl-nav .owl-next").attr("role", "button")
   });
   </script>
+ 
   <script>
-  var owl = $(".tabby_slider").owlCarousel({
-    // loop: !0,
-    responsiveClass: !0,
+  $(document).ready(function() {
+    $(".tabby_slider").owlCarousel({
+     responsiveClass: !0,
     nav: !0,
     margin: 0,
     autoplay: !0,
@@ -623,13 +628,17 @@
       1200: {
         items: 3
       }
-    }
+      }
+    });
+    $(".owl-nav .owl-prev").attr("role", "button"), $(".owl-nav .owl-next").attr("role", "button")
   });
   </script>
+ 
+ 
   <script>
-  var owl = $(".types_of_hair").owlCarousel({
-    // loop: !0,
-    responsiveClass: !0,
+  $(document).ready(function() {
+    $(".types_of_hair").owlCarousel({
+       responsiveClass: !0,
     nav: !0,
     margin: 15,
     autoplay: !0,
@@ -652,13 +661,16 @@
       1200: {
         items: 5
       }
-    }
+      }
+    });
+    $(".owl-nav .owl-prev").attr("role", "button"), $(".owl-nav .owl-next").attr("role", "button")
   });
   </script>
+
   <script>
-  var owl = $("#tratment_slider").owlCarousel({
-    // loop: !0,
-    responsiveClass: !0,
+  $(document).ready(function() {
+    $("#tratment_slider").owlCarousel({
+       responsiveClass: !0,
     nav: !0,
     margin: 0,
     autoplay: !0,
@@ -681,9 +693,13 @@
       1200: {
         items: 3
       }
-    }
+      }
+    });
+    $(".owl-nav .owl-prev").attr("role", "button"), $(".owl-nav .owl-next").attr("role", "button")
   });
   </script>
+
+
   <script>
   $(document).ready(function() {
     $("#testimonilas_slider").owlCarousel({
