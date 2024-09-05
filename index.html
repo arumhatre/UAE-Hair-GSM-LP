@@ -620,13 +620,16 @@
     navText: ["<img src='images/previmage.webp' alt='02 prev' width='40' height='40'>", "<img src='images/nextimage.webp' alt='02 next' width='40' height='40'>"],
     responsive: {
       0: {
-        items: 1
+        items: 1,
+        loop: true
       },
       600: {
-        items: 1
+        items: 1,
+        loop: true
       },
       1200: {
-        items: 3
+        items: 3,
+        loop: false
       }
       }
     });
@@ -647,19 +650,24 @@
     navText: ["<img src='images/previmage.webp' alt='02 prev' width='40' height='40'>", "<img src='images/nextimage.webp' alt='02 next' width='40' height='40'>"],
     responsive: {
       0: {
-        items: 1
+        items: 1,
+         loop: true
       },
       600: {
-        items: 1
+        items: 1,
+         loop: true
       },
       768: {
-        items: 3
+        items: 3,
+        loop: false
       },
       1024: {
-        items: 3
+        items: 3,
+        loop: false
       },
       1200: {
-        items: 5
+        items: 5,
+        loop: false
       }
       }
     });
@@ -670,34 +678,44 @@
   <script>
   $(document).ready(function() {
     $("#tratment_slider").owlCarousel({
-       responsiveClass: !0,
-    nav: !0,
-    margin: 0,
-    autoplay: !0,
-    autoplayTimeout: 4e3,
-    smartSpeed: 400,
-    navText: ["<img src='images/previmage.webp' alt='02 prev' width='40' height='40'>", "<img src='images/nextimage.webp' alt='02 next' width='40' height='40'>"],
-    responsive: {
-      0: {
-        items: 1
-      },
-      600: {
-        items: 1
-      },
-      768: {
-        items: 2
-      },
-      1024: {
-        items: 3
-      },
-      1200: {
-        items: 3
-      }
+      responsiveClass: true,
+      nav: true,
+      margin: 0,
+      autoplay: true,
+      autoplayTimeout: 4000,
+      smartSpeed: 400,
+      navText: [
+        "<img src='images/previmage.webp' alt='02 prev' width='40' height='40'>",
+        "<img src='images/nextimage.webp' alt='02 next' width='40' height='40'>"
+      ],
+      responsive: {
+        0: {
+          items: 1,
+          loop: true
+        },
+        600: {
+          items: 1,
+          loop: true
+        },
+        768: {
+          items: 2,
+          loop: false
+        },
+        1024: {
+          items: 3,
+          loop: false
+        },
+        1200: {
+          items: 3,
+          loop: false
+        }
       }
     });
-    $(".owl-nav .owl-prev").attr("role", "button"), $(".owl-nav .owl-next").attr("role", "button")
+
+    $(".owl-nav .owl-prev").attr("role", "button");
+    $(".owl-nav .owl-next").attr("role", "button");
   });
-  </script>
+</script>
 
 
   <script>
