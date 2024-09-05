@@ -80,33 +80,15 @@ header{background:#383838;min-height:60px;display:-webkit-box;display:-ms-flexbo
 .blue-band-offer-heading{margin-bottom:0;font-size:28px;color:#fff;font-weight:600;line-height:normal}
 .percntageband-heading{font-size:28px;font-weight:700;color:#fff;margin-bottom:0}
 .offer-new-para-css{margin-bottom:0;color:#fff;font-size:18px;line-height:normal}
-.small_white_offer_offer{
-    float: right;
-    font-size: 12px;
-    font-weight: 600;
-    color: #fff;
-    margin-top: -15px;
-}
+.small_white_offer_offer{float:right;font-size:12px;font-weight:600;color:#fff;margin-top:-15px}
 @media(max-width:768px){
- .offer-background-sec-new{
-   padding-top:30px;
-   padding-bottom:50px;
- }   
+.offer-background-sec-new{padding-top:30px;padding-bottom:50px}
 .blue-band-offer-heading{margin-bottom:12px}
 .blue-band-padding-new-css{padding:0 15px}
 .border-right-css-n-band{border-right:none}
 .blue-band-offer-heading{font-size:24px}
-.small_white_offer_offer{
-    float: right;
-    font-size: 10px;
-    font-weight: 600;
-    color: #fff;
-    margin-top: 20px;
-    margin-bottom: 0px;
+.small_white_offer_offer{float:right;font-size:10px;font-weight:600;color:#fff;margin-top:20px;margin-bottom:0}
 }
-}
-
-
 
 /*==========================================*/
 /* Contact css*/
@@ -323,7 +305,6 @@ header{background:#383838;min-height:60px;display:-webkit-box;display:-ms-flexbo
 @media only screen and (max-width:600px){
 .service_bg_sec{margin-top: 30px; padding-top: 50px; padding-bottom: 30px; background:url(../images/service-bg-sec-img-mob.webp) bottom center no-repeat;background-size:cover}
 }
-
 
 /*==========================================*/
 /* Google rating css*/
