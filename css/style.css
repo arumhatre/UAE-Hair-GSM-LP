@@ -269,6 +269,9 @@ header{background:#383838;min-height:60px;display:-webkit-box;display:-ms-flexbo
 .tabby_slider .owl-nav{text-align:center!important;margin-top:15px;top:0;right:0;position:relative}
 .tabby_slider .owl-nav button{font-size:30px!important;margin:0 10px;color:#000!important}
 }
+@media (max-width:600px){
+  .tabby_slider .owl-item .item img{width:80%; margin: 0 auto;}
+}
 
 /*==========================================*/
 /* Types Slider css*/
@@ -286,6 +289,10 @@ header{background:#383838;min-height:60px;display:-webkit-box;display:-ms-flexbo
 .types_of_hair .owl-nav button{font-size:30px!important;margin:0 10px;color:#000!important}
 }
 .img_on_text_type{color:#fff;text-align:center;font-size:16px;line-height:20px;font-weight:600;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%)}
+
+@media (max-width:768px){
+    .img_on_text_type{color:#fff;text-align:center;font-size:24px;line-height:normal;font-weight:600;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%)}
+}
 
 /*==========================================*/
 /* Service Box css*/
